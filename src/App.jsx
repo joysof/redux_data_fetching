@@ -1,8 +1,11 @@
 import React from 'react'
+import Posts from './components/Posts'
 
 const App = () => {
   return (
-    <div className='bg-red-200'>App</div>
+    <div>
+      <Posts/>
+    </div>
   )
 }
 
